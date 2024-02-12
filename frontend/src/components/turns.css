@@ -1,0 +1,98 @@
+/* *{
+    background-color: black;
+} */
+.body2{
+    background-image: url('./images/turns.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.select{
+    font-size: 30px;
+    /* font-family: cursive; */
+    text-align: center;
+    color: rgb(43, 252, 252);
+    border-style: solid;;
+    border-radius: 30px;
+    /* width: 470px;
+    height: auto; */
+    padding: 10px 0;
+    border-color: rgb(251, 251, 251) ;
+    background-color: rgb(40, 37, 37);
+    box-shadow: 0 0px 10px rgb(43, 252, 252) inset, 0 0px 10px rgb(43, 252, 252),
+                0 0px 10px rgb(43, 252, 252) inset, 0 0px 10px rgb(43, 252, 252);
+}
+.turn10{
+    background-color: rgb(45, 41, 41);
+    transition: transform 0.3s ease;
+    width:170px;
+    height: 50px;
+    border: solid rgb(248, 67, 239);
+    /* font-family:cursive; */
+    border-radius: 20px;
+    cursor: pointer;
+    font-size:21px;
+    color:rgb(248, 67, 239);
+    box-shadow: 0 0px 5px rgb(248, 67, 239) inset, 0 0px 5px rgb(248, 67, 239),
+                0 0px 5px rgb(248, 67, 239) inset, 0 0px 5px rgb(248, 67, 239);
+
+}
+.turn15{
+    background-color: rgb(45, 41, 41);
+    width:170px;
+    height: 50px;
+    border: solid yellow;
+    /* font-family:cursive; */
+    border-radius: 20px;
+    cursor: pointer;
+    font-size:21px;
+    color:rgb(239, 239, 59);
+    box-shadow: 0 0px 5px yellow inset, 0 0px 5px yellow,
+                0 0px 5px yellow inset, 0 0px 5px yellow;
+    transition: transform 0.3s ease;
+
+}
+.turn20{
+    transition: transform 0.3s ease;
+    background-color: rgb(45, 41, 41);
+    width:170px;
+    height: 50px;
+    border: solid rgb(174, 211, 248);
+    /* font-family:cursive; */
+    border-radius: 20px;
+    cursor: pointer;
+    font-size:21px;
+    color:rgb(90, 169, 248);
+    box-shadow: 0 0px 5px rgb(90, 169, 248) inset, 0 0px 5px rgb(90, 169, 248),
+                0 0px 5px rgb(90, 169, 248) inset, 0 0px 5px rgb(90, 169, 248);
+}
+.turn15:hover,.turn10:hover,.turn20:hover{
+    transform: scale(1.04);
+}
+/* ------------------------------------ */
+.about-main,.contact-main{
+    background-image: url('./images/turns.gif');
+    min-height: 100vh;
+    position: fixed;
+}
+.pop{
+    background-color: rgb(5, 0, 5);
+    border-radius: 30px;
+    border: 1.5px solid rgb(252, 77, 238);
+    padding-left: 50px;
+    overflow: auto;
+    height: 80vh;
+    width: 100;
+    color:rgb(202, 202, 202);
+}
+.turns_back{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    border:1px solid white;
+    background-color: black;
+    color: rgb(153, 90, 248); 
+    box-shadow: 0 0px 5px rgb(153, 90, 248) inset, 0 0px 5px rgb(153, 90, 248),
+    0 0px 5px rgb(153, 90, 248) inset, 0 0px 5px rgb(153, 90, 248);
+    cursor: pointer;
+    /* color: rgb(2, 196, 2); */
+}

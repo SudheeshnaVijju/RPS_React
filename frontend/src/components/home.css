@@ -1,0 +1,134 @@
+.start{
+    /* font-family:cursive; */
+    /* background-color: rgb(64, 178, 51); */
+    background-image: linear-gradient(rgb(135, 250, 135),rgb(2, 129, 2));
+    font-size: 24px;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor:pointer;
+    border:none;
+    padding: 8px;
+    /* box-shadow: 0 0px 10px rgb(1, 250, 55) inset, 0 0px 10px rgb(1, 250, 55); */
+                /* 0 0px 10px rgb(1, 250, 55) inset, 0 0px 10px rgb(1, 250, 55); */
+}
+
+.body1{
+    background-image: url('./images/home.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: url('./images/rps.mp4') center/cover no-repeat; */
+}
+.login_button,.back,.signin_button{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-image:linear-gradient(rgb(198, 198, 253),rgb(68, 68, 251)) ;
+}
+.signin_button{
+    background-image:linear-gradient(rgb(249, 204, 55),rgb(175, 108, 1)) ;
+
+}
+.login{
+    background-color: rgb(64, 64, 162);
+    color:rgb(202,202,202);
+    border-radius: 20px;
+}
+.card{
+    overflow: hidden;
+}
+.card-header,.card-footer{
+    background-color: transparent ;
+    border: none;
+}
+.card-body{
+    border-top: 1px solid rgb(170, 169, 170);
+
+}
+input,textarea{
+    border-radius: 10px;
+    border: none;
+    margin-top: 4px;
+    width: 35vh;
+    background-color: rgb(202, 202, 202);
+}
+
+.main{
+    height: 300px;
+    background-color: aquamarine;
+    
+}
+.main{
+    border-radius: 25px;
+    height: 280px;
+    border-style: solid;
+    border-top: 3px solid white ;
+    border-width:   3px;
+    border-color: rgb(248, 250, 252);
+    background-color: rgb(2, 2, 2);
+    color: rgb(251, 248, 248);
+    box-shadow: 0 0px 15px rgb(195, 0, 255) inset, 0 0px 15px rgb(195, 0, 255),
+                0 0px 15px rgb(195, 0, 255) inset, 0 0px 15px rgb(195, 0, 255);
+}
+.computer_icon{
+    
+    background-color: black;
+    border-radius: 25px;
+    border: 4px rgb(253, 253, 253) ;
+    color: white;
+    border-style:outset;
+    border-color: rgb(115, 154, 83) ;
+    font-size: 40px;
+    /* pointer-events: none; */
+    /* box-shadow: 0 0px 10px rgb(253, 139, 38) inset, 0 0px 10px rgb(253, 139, 38),
+                0 0px 10px rgb(253, 139, 38) inset, 0 0px 10px rgb(253, 139, 38); */
+}
+.icon-1,.cicon-1{
+    border: 2px solid rgb(249, 3, 204);
+    box-shadow: 0 0px 10px rgb(249, 3, 204) inset, 0 0px 10px rgb(249, 3, 204),
+                0 0px 10px rgb(249, 3, 204) inset, 0 0px 10px rgb(249, 3, 204);
+    
+}
+.uicon-1:hover{
+    border-color: rgb(251, 250, 251);
+    box-shadow: 0 0px 12px rgb(249, 3, 204) inset, 0 0px 12px rgb(249, 3, 204),
+                0 0px 12px rgb(249, 3, 204) inset, 0 0px 12px rgb(249, 3, 204);
+    
+}
+.icon-2,.cicon-2{
+    border:2px solid rgb(241, 249, 3);
+    box-shadow: 0 0px 10px rgb(241, 249, 3) inset, 0 0px 10px rgb(241, 249, 3),
+                0 0px 10px rgb(241, 249, 3) inset, 0 0px 10px rgb(241, 249, 3);
+    
+}
+.uicon-2:hover{
+    border-color: white;
+    box-shadow: 0 0px 12px rgb(241, 249, 3) inset, 0 0px 12px rgb(241, 249, 3),
+                0 0px 12px rgb(241, 249, 3) inset, 0 0px 12px rgb(241, 249, 3);
+}
+.icon-3,.cicon-3{
+    border:2px solid rgb(3, 138, 249);
+    box-shadow: 0 0px 10px rgb(3, 130, 249) inset, 0 0px 10px rgb(3, 138, 249),
+                0 0px 10px rgb(3, 138, 249) inset, 0 0px 10px rgb(3, 138, 249);
+    
+}
+.uicon-3:hover{
+    border-color: white;
+    box-shadow: 0 0px 12px rgb(3, 130, 249) inset, 0 0px 12px rgb(3, 138, 249),
+                0 0px 12px rgb(3, 138, 249) inset, 0 0px 12px rgb(3, 138, 249);
+}
+.uicon-1,.uicon-2,.uicon-3{
+    cursor: pointer;
+}
+.game{
+    background-image: url('./images/gameImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.starts,.comp_choice,.user_choice{
+    text-shadow: 2px 2px 3px rgb(190, 4, 252),-2px 2px 3px rgb(190, 4, 252),-2px -2px 3px rgb(190, 4, 252),2px -2px 3px rgb(190, 4, 252);
+    /* font-family: cursive; */
+    font-size: 20px;
+}
